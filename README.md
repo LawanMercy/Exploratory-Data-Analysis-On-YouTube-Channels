@@ -60,7 +60,7 @@ The video-sharing platform's plot shows diverse content, inconsistent correlatio
 ![image](https://github.com/user-attachments/assets/3297b667-74b1-40e0-a610-962faba77e13)
 
 
-To view the codes, click here[](https://colab.research.google.com/drive/1Bh1DRK83T6iuM5uxw6-2zTHcylvC3rBr?usp=sharing)
+To view the codes, click [here](https://colab.research.google.com/drive/1Bh1DRK83T6iuM5uxw6-2zTHcylvC3rBr?usp=sharing).
 
 
 
