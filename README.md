@@ -24,14 +24,20 @@ The project begins with loading the dataset using the Pandas library. The datase
 
 ![image](https://github.com/user-attachments/assets/e4eae4cb-9f4c-48ca-a4f9-1362b1497715)
 
-**2. Colums with Outliers**
+The dataset's "uploads" column shows a highly skewed distribution, with a mean of 14,758, a standard deviation of 44,248, and a range of 1 to 436.5 uploads. The median is 1,278, with a 75th percentile of 4,142.5. The maximum upload is 301,308, likely an outlier impacting the standard deviation and mean.
+
+**2. Columns with Outliers**
 
 ![image](https://github.com/user-attachments/assets/6d5dc32c-5872-4336-ab3c-3b6b5ec3cd1a)
+
+**Numercial Columns with outliers:** subscribers, video views, uploads, video_views_rank, country_rank, channel_type_rank, video_views_for_the_last_30_days, lowest_monthly_earnings, highest_monthly_earnings, lowest_yearly_earnings, highest_yearly_earnings, subscribers_for_last_30_days, created_year, Population, Urban_population, Latitude.
 
 
 **3. One Univariate analysis (one plot) for any categorical feature/attribute of your choice.**
 
 ![image](https://github.com/user-attachments/assets/5517b8df-bdbc-4f27-b789-cfcf04145634)
+
+This output displays the number of channels in various categories, with music and entertainment being the most popular. Popular categories include education, games, and howto. Moderate representation is found in categories like film, news, people, sports, and comedy, with low counts in rare categories like nonprofit, tech, animals, and autos.
 
 **4. One Univariate analysis (One plot) for any continuous features/attribute of your choice.**
 
@@ -46,6 +52,8 @@ The project begins with loading the dataset using the Pandas library. The datase
 **6. One Multivariate analysis (One plot) for any three features of your choice**
 
 ![image](https://github.com/user-attachments/assets/b05c4fb1-6d30-45ed-88ae-4ef9ba3f65eb)
+
+The video-sharing platform's plot shows diverse content, inconsistent correlations, high performers, cluster patterns, and spread in upload numbers across 14 categories. Notable outliers are in Music, Entertainment, and Education, while Animals and Tech have lower views. The graph highlights the importance of content quality over quantity and suggests niche opportunities in less populated areas.
 
 **7. Correlation Heatmap**
 
